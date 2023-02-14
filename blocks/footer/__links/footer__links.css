@@ -1,0 +1,23 @@
+.footer__links {
+  display: grid;
+  grid-auto-columns: repeat(auto-fit, minmax(min-content, max-content));           /*проверка*/
+  grid-template-areas:
+  "link link link link link";
+  list-style-type: none;
+  grid-area: links;
+  column-gap: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width:320px)and (max-width: 605px) {
+  .footer__links {
+    grid-template-areas:
+      "link"
+      "link"
+      "link"
+      "link"
+      "link";
+    grid-row-gap: 32px
+  }
+}
