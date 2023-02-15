@@ -3,7 +3,7 @@
   align-self: flex-end;
   flex-wrap: wrap;
   list-style-type: none;
-  margin: 0;
+  margin: 18px 0 6px 0;
   padding: 0;
 }
 @media screen and (max-width:320px) {
