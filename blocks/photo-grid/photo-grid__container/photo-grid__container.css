@@ -1,0 +1,14 @@
+.photo-grid__container {
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width:320px) and (max-width: 425px) {
+  .photo-grid__container {
+    gap: 12px;
+  }
+}
